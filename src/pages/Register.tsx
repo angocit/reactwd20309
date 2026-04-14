@@ -1,8 +1,7 @@
 import { useMutation } from '@tanstack/react-query'
-import { Button, Checkbox, Form, Input, message } from 'antd'
+import { Button,  Form, Input, message } from 'antd'
 import axios from 'axios'
-import React from 'react'
-import { data, useNavigate } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 
 const Register = () => {
     const navigate = useNavigate()

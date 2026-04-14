@@ -1,5 +1,4 @@
 import { Button, Form, Input, InputNumber, message, Select } from 'antd'
-import React from 'react'
 import type { IProduct, TProduct } from '../../interface/product'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import axios from 'axios'

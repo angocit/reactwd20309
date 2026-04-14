@@ -1,12 +1,8 @@
-import { useQuery, useQueryClient } from '@tanstack/react-query'
-import axios from 'axios'
-import React from 'react'
 import type { IProduct } from '../interface/product'
 import ProductItem from '../components/client/productitem'
 import { useQueryCustom } from '../hooks/customhook'
 
 const Home = () => {
-  const queryclient = useQueryClient()
   const {data,isLoading} = useQueryCustom<IProduct>(`http://localhost:3000/product`)
   // const {data,isLoading} = useQuery<IProduct[]>({
   //   queryKey:['products'],

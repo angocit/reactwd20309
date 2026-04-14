@@ -1,5 +1,4 @@
 import { Button, Form, Input, InputNumber, message } from 'antd'
-import React from 'react'
 import type { IProduct, TProduct } from '../../interface/product'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'

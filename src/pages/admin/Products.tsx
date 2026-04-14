@@ -1,6 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import axios from 'axios'
-import React from 'react'
 import type { IProduct } from '../../interface/product'
 import { Button, message, Popconfirm, Table } from 'antd'
 import { useNavigate } from 'react-router-dom'

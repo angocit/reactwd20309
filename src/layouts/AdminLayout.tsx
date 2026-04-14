@@ -1,12 +1,9 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Outlet } from 'react-router-dom'
-import { Button, Layout, Menu, theme } from 'antd';
+import { Button, Layout,  theme } from 'antd';
 import {
   MenuFoldOutlined,
-  MenuUnfoldOutlined,
-  UploadOutlined,
-  UserOutlined,
-  VideoCameraOutlined,
+  MenuUnfoldOutlined
 } from '@ant-design/icons';
 import SidebarMenu from '../components/admin/SidebarMenu';
 const { Header, Sider, Content } = Layout;
