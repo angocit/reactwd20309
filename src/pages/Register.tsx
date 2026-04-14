@@ -8,7 +8,7 @@ const Register = () => {
     const mutation = useMutation({
         mutationFn:async (udata)=>{
             try {
-                const {data} = await axios.post(`http://localhost:3000/register`,udata)
+                await axios.post(`http://localhost:3000/register`,udata)
                 message.success("Đăng ký thành công")
                 navigate('/login')
             } catch (error) {

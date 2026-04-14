@@ -24,6 +24,7 @@ const ProductAdd = () => {
       navigate('/admin/products')
     },
     onError: (err)=>{
+      console.log(err);      
       message.error("Thêm thất bại")
     }
   })
